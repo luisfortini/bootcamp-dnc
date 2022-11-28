@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#nav_principal {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  border: 1px solid black;
+  background-color: #303030;
+  justify-content: space-between;
+}
+
+#nav_principal div a {
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+#nav_principal button {
+  margin-right: 5%;
+}
+
+.menu {
+  display: flex;
+  width: 55%;
+  justify-content: space-around;
+  align-items: center;
+}
